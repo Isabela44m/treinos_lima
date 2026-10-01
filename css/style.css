@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: orange;
+    background-color: rgb(0, 0, 0);
+    background-image: url("/assets/img/ondas.png");
+    background-size: cover;
+
+}
+header{
+    padding: 20px;
+    background-color: rgba(127, 255, 212, 0.198);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#itens{
+    display: flex;
+    gap:10px;
+}
+#destaque{
+    margin: 10px;
+    padding: 20px;
+    background-color: aqua;
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+}
+#destaque-img{
+    background-color: rgb(47, 47, 73);
+}
+#destaque-img img{
+width: 400px;
+}
+#galeria {
+    margin-top: 30px;
+    background-color: cadetblue;
+    padding:20px;
+}
+#galeria-texto{
+    background-color: beige;
+}
+#galeria-fotos{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.galeria-card img{
+    height:300px;
+}
+
+footer{
+margin-top: 30px;
+background-color: aquamarine;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
