@@ -13,7 +13,7 @@ body{
 }
 header{
     padding: 20px;
-    background-color: rgba(0, 168, 180, 0.982);
+    background-color: rgb(0, 168, 180);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,6 +87,11 @@ background-color:rgba(0, 168, 180, 0.982);
 padding: 20px;
 display: flex;
 justify-content: space-between;
+}
+#acesso{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 .textinho{
     color:rgb(255, 162, 0);
