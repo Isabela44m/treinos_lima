@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(247, 239, 225);
+    background-color: rgb(0, 0, 0);
+    background-image: url("/assets/img/ondas.png");
+    background-size: cover;
+
+
+}
+header{
+    padding: 20px;
+    background-color: rgba(0, 168, 180, 0.982);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#itens{
+    display: flex;
+    gap:10px;
+}
+#destaque{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(0, 144, 163);
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    border-radius: 10px;
+}
+#destaque-texto h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#destaque-texto p{
+    font-size: 18px;
+}
+#destaque-img img{
+width: 400px;
+height: 300px;
+border-radius: 10px;
+object-fit: cover;
+}
+#galeria {
+    border-radius: 10px;
+    margin-top: 30px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(2, 132, 137, 0.601);
+    padding:20px;
+}
+#galeria-fotos{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+}
+.galeria-card{
+    padding: 10px;
+    background-color: rgb(18, 149, 166);
+    border-radius: 10px;
+    width: 25%;
+}
+.galeria-card img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-txt h1{
+text-transform: uppercase;
+font-size: 20px;
+color:orange
+}
+
+
+footer{
+margin-top: 30px;
+background-color:rgba(0, 168, 180, 0.982);
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+.textinho{
+    color:rgb(255, 162, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+a{
+    color:rgb(251, 250, 247);
+    text-decoration: none;
+    background-color:orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color:rgb(249, 246, 242);
+    color:rgb(23, 189, 176);
+}
