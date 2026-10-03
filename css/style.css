@@ -34,11 +34,12 @@ header{
     gap:40px;
     border-radius: 10px;
 }
-#destaque-img{
-    background-color: rgb(47, 47, 73);
-}
+
 #destaque-img img{
 width: 400px;
+height: 300px;
+border-radius: 10px;
+object-fit: cover;
 }
 #galeria {
     border-radius: 10px;
@@ -79,4 +80,10 @@ background-color:rgba(0, 168, 180, 0.982);
 padding: 20px;
 display: flex;
 justify-content: space-between;
+}
+.textinho{
+    color:rgb(255, 162, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
